@@ -5,10 +5,12 @@ h1{
     text-align: center;
     color: whitesmoke;
     padding: 20px;
-    border: solid darkcyan;
-    background-color: darkcyan;
+    border: solid rgb(175, 177, 83);
+    background-color: rgb(175, 177, 83);
     font-family: 'Martian Mono', monospace;
-    border-radius: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 6px 17px black;
+
 
 }
 .h{
@@ -38,9 +40,8 @@ h1{
 
     
 body{
-background: rgb(120,9,121);
-background: linear-gradient(90deg, rgba(120,9,121,1) 0%, rgba(16,117,106,1) 21%, rgba(114,98,169,1) 39%, rgba(117,95,166,1) 54%, rgba(122,90,162,1) 56%, rgba(171,42,125,1) 74%, rgba(0,245,255,1) 95%);
-    
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 .k{
     width: 215px;
@@ -104,5 +105,30 @@ background: linear-gradient(90deg, rgba(120,9,121,1) 0%, rgba(16,117,106,1) 21%,
         display: block;
         font-size: 22PX;
         text-align: center;
+    }
+    .wrap{
+        display: block;
+    }
+   img{
+        height: 180px;
+        width: 100%;
+        margin: 0;
+    }
+    iframe{
+        width: 100%;
+    margin-top: 20px
+    }
+    .t{
+        margin: 0 auto;
+    }
+    .r{
+        margin-left: 0;
+    }
+    .l{
+        height: auto;
+    }
+    .k{
+        width: 100%;
+        height: 100%;
     }
 }
